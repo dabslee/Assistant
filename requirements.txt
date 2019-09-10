@@ -1,0 +1,3 @@
+pygame==1.9.6
+StringDist==1.0.9
+win10toast==0.9

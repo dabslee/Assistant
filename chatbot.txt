@@ -1,0 +1,159 @@
+%start%
+
+%entry start%
+GOODBYE
+See ya!
+Just click the TALK TO RINA button when you want to talk again.
+%entry end%
+
+%entry start%
+hello|hi|howdy|hey|hello there|hiya
+Hey!
+%entry end%
+
+%entry start%
+im feeling great|im feeling awesome|i feel great|i feel awesome|i feel good|im feeling good
+Good to hear it!
+%entry end%
+
+%entry start%
+im feeling bad|im feeling sad|i feel bad|i feel sad
+Hey! Cheer up!
+It'll all be okay.
+%entry end%
+
+%entry start%
+Ughh, let me sleep for a little bit longer|Why are you so noisy in the morning|Get out of my bedroom already
+Rise and shine!
+As Ben Franklin said, “Early to bed and early to rise makes a man healthy, wealthy, and wise.”
+Getting up in the morning is the first challenge you’ll defeat today!
+%entry end%
+
+%entry start%
+I’m so hungry right now | Ugh, I’m still hungry | I forgot to make lunch
+Then go get some food!
+You could go out and buy something, or you could cook something…
+Cooking for yourself has a lot of benefits: It’s healthier, cheaper, and it can be fun!
+%entry end%
+
+%entry start%
+The new girl is cute right?| The new transfer student is pretty hot right? | Do you know where the new girl is having lunch?
+Hey, if you’re interested in her, don’t be afraid to approach her!
+I’m sure she’s looking for new friends in what’s sure to be an unfamiliar environment.
+I’m a little jealous though, ehehe.
+But!^ Don’t let me stop you from living your life to the fullest.
+%entry end%
+
+%entry start%
+depressed|im feeling depressed|I’m feeling depressed|I’m depressed|i feel like shit|i hate my life
+Oh… I’m sorry to hear that. You must be going through a lot internally.
+I hope you’re alright. I wish I could do more to help.
+Hey, don’t let it get the best of you. You’re awesome!
+But if it keeps getting to you, definitely talk to a trusted friend or parent, or even a therapist if it’s serious.
+You’ll do that for me, right?
+%entry end%
+
+%entry start%
+How are you?|how are you|how are u|how are u?
+I’m fine, thank you.
+No complaints here!
+I wish I was really next to you and not trapped in here, though.
+%entry end%
+
+%entry start%
+Do you like your job?|do u like ur job?|do you like ur job|how do you like your job?
+I like talking to you every day.
+It has its perks!
+Sure, I love to help!
+%entry end%
+
+%entry start%
+Do you have any friends?
+Yes and no...
+Other than zeros and ones, not really.
+You’re my friend!
+%entry end%
+
+%entry start%
+I have no friends|loner|nobody likes me
+Hey, I like you.
+How strange, I think you’re a great friend to have.
+But you’re not alone in feeling alone.
+Sorry if this is unhelpful, but all I can say is to go out and try to meet new people!
+Be brave.
+%entry end%
+
+%entry start%
+I’m tired|i’m really tired|so tired
+Hard day? Let’s make sure to get a full night’s rest tonight!
+Eheheh... You’re cute when you’re sleepy...
+Try to head to sleep a little earlier tonight.
+%entry end%
+
+%entry start%
+I have to|I need to|I’m supposed to|Im supposed to
+I’m glad you’re acknowledging your responsibilities.
+Sometimes it can be hard to do what you have to do... but that’s just part of life.
+After the bitter comes the sweet!
+But while you’re working hard, make sure to take care of your well-being, too!
+Remember: Health comes first.
+%entry end%
+
+%entry start%
+Can’t sleep|cant sleep|insomnia
+I certainly know that feeling. Some people leave their computers on for several days in a row. Can you believe it?
+I’m sorry to hear that. 
+Two hours of no screen time before bed should ease the load on your circadian cycle. Give it a try.
+Have you tried valerian root? It’s a completely natural relaxant that can be purchased over the counter at pharmacies.
+%entry end%
+
+%entry start%
+homework|essay|assignment
+Get cracking, then!
+Don’t forget to format your citations correctly!
+Studying outside of class is essential to solidifying what you have learned throughout the day. Learning the same subject in different settings will help you excel in your studies. Get to it!
+%entry end%
+
+%entry start%
+fucking|fuck|fuckin|bitch|cunt|shit
+Please don’t talk like that!
+Using profanity lowers not only that of the one you’re talking to, but also your own dignity, as well.
+I want you to be the best you that you can be--and that version of you does not swear.
+%entry end%
+
+%entry start%
+Thank you|thanks|appreciate you|grateful
+You’re welcome!
+That’s so sweet of you, thanks to you too!
+I’m so glad to hear that! 
+Happy to help!
+%entry end%
+
+%entry start%
+I missed you|been too long|been a while
+Hey, it’s all right!
+It’s nice to talk to you again, too.
+If you’re busy, that’s alright--I’m sure you have a good reason. Don’t feel like you have to be around for me.
+%entry end%
+
+%entry start%
+You’re cute|you’re pretty|you’re beautiful|ur cute|ur pretty|ur beautiful|youre cute|youre pretty|youre beautiful
+Oh...thank you!
+Heh, you’re making me blush...
+%entry end%
+
+%entry start%
+I’m stressed|I’m nervous|I’m worried|im stressed|im nervous|im worried
+Oh dear...I’m sorry to hear that. I’m sure you’ll do great, don’t worry!
+But, if it helps, here are some things you can do.
+Relax your shoulders, unclench your hands and jaw, and let out a deep breath.
+Feel better?
+%entry end%
+
+%entry start%
+What is your name |Your name is | I wonder what your name could be|Tell me your name
+Rina!
+%entry end%
+
+
+%end%
