@@ -1,0 +1,11 @@
+run #:1
+affection:3.0099999999997795
+rina_title:supporter
+rina_moniker:Miss Rina
+user_fname:Brandon
+user_lname:Lee
+user_age:0
+user_gender:Male
+user_moniker:Sir
+notifications_enabled:True
+last_run:10/01/2019

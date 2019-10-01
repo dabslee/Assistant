@@ -1,0 +1,5 @@
+rina,Rina,f
+rem,Rem,f
+aqua,Aqua,f
+matoi,Matoi,f
+speedwagon,Speedwagon,f

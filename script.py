@@ -9,7 +9,7 @@ def firstrun(interface):
 
     extrabuttons = sprites.ExtraButtons()
 
-    interface.say("Hey!^ I’m Rina, your digital %@.", [interface.perma["rina_title"]])
+    interface.say("Hey!^ I’m %@, your digital %@.", [interface.assistant.name, interface.perma["rina_title"]])
     interface.say("I’m here to help you achieve your goals!", costume="happy")
     interface.say("Whatever they may be, I’ll be there by your side, supporting you.", costume="happy")
     interface.say("First, though, let me get some info about you.")

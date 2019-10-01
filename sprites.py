@@ -68,7 +68,15 @@ class Assistant(Sprite):
     # Template
     def __init__(self):
         Sprite.__init__(self)
-        self.costume = "assets/neutral.png"
+
+        skinsf = open("skins.txt", 'r')
+        skinsline = skinsf.readline().rstrip().split(",")
+        self.skin = skinsline[0]
+        self.name = skinsline[1]
+        self.gender = skinsline[2]
+        skinsf.close()
+
+        self.costume = "assets/" + self.skin + "/neutral.png"
     def event_update(self, event):
         pass
     def continuous_update(self):
@@ -176,7 +184,10 @@ class Interface(Sprite):
 
         if (self.perma["affection"] < 216*5):
             self.perma["rina_title"] = "supporter"
-            self.perma["rina_moniker"] = "Miss Rina"
+            if (self.assistant.gender == 'f'):
+                self.perma["rina_moniker"] = "Miss " + self.assistant.name;
+            else:
+                self.perma["rina_moniker"] = "Mr. " + self.assistant.name;
             if (self.perma["user_gender"] == "Male"):
                 self.perma["user_moniker"] = "Sir"
             elif (self.perma["user_gender"] == "Female"):
@@ -185,7 +196,7 @@ class Interface(Sprite):
                 self.perma["user_moniker"] = "Mx. " + self.perma["user_lname"]
         elif (perma["affection"] < 216*14):
             self.perma["rina_title"] = "friend"
-            self.perma["rina_moniker"] = "Rina"
+            self.perma["rina_moniker"] = self.assistant.name;
             if (self.perma["user_gender"] == "Male"):
                 self.perma["user_moniker"] = "Mr. " + self.perma["user_lname"]
             elif (self.perma["user_gender"] == "Female"):
@@ -200,7 +211,7 @@ class Interface(Sprite):
 
     def say(self, text, tokens=[], costume="neutral"):
 
-        costumepath = "assets/rina/"
+        costumepath = "assets/" + self.assistant.skin + "/"
         self.assistant.costume = costumepath + costume + ".png"
 
         text_array = text.split("%@")
@@ -228,7 +239,7 @@ class Interface(Sprite):
 
     def input(self, text, default="", costume="neutral"):
 
-        costumepath = "assets/rina/"
+        costumepath = "assets/" + self.assistant.skin + "/"
         self.assistant.costume = costumepath + costume + ".png"
         
         self.speechbox.message = text
@@ -243,7 +254,7 @@ class Interface(Sprite):
 
     def buttons(self, text, labels, costume="neutral"):
 
-        costumepath = "assets/rina/"
+        costumepath = "assets/" + self.assistant.skin + "/"
         self.assistant.costume = costumepath + costume + ".png"
 
         self.speechbox.message = text
