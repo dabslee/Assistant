@@ -8,7 +8,9 @@ Before you run the program, you're going to have to install a couple python libr
 To run the program, run *game.py* using Python 3.7 (32 bit).
 
 ## Changing Rina to a Different Character
-In this beta version, you can change Rina into a different character, changing her appearance and name. To do this, simply open up `skins.txt` and move the line that describes the character you want to the top of the file.
+In this beta version, you can change Rina into a different character, changing her appearance and name. To do this, simply open up `skins.txt` and move the line that describes the character you want to the top of the file. Currently, the available characters include Rina, Rem (Re:Zero), Aqua (Konosuba), Matoi (Kill la Kill), and Speedwagon (JoJo's Bizarre Adventure).
+
+Note that this will *only* change the appearance and name of Rina; it will not affect the personality or dialogue in any substantial way. This can give a very dissonant feel to the game, as the personality of the dialogue and the personality of the character may not match.
 
 ## Adding to the Conversational Script
 To add to the prompts that Rina can respond to, open up *chatbox.txt*. In the text file, add entries between the `%start%` and the `%end%` lines following the format below:
