@@ -3,7 +3,7 @@
 ## Running the Program
 First, make sure you have Python 3.7 installed. If you don't, you can install [here](python.org/downloads).
 
-Before you run the program, you're going to have to install the pygame library. If you have pip, just call `pip install pygame` on your command line to install everything you need.
+Before you run the program, you're going to have to install a couple python libraries. If you have pip, just call `pip install -r requirements.txt` on your command line to install everything you need.
 
 To run the program, run *game.py* using Python 3.7 (32 bit).
 
